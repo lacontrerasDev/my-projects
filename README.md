@@ -8,7 +8,7 @@ analytical reasoning, currently applying web development technologies to deliver
 ## Projects
 1. Speed Typing Test
    - Description: The Speed Typing App is designed to help users improve their typing speed and accuracy. 
-   - Technologies: Ract, Custom Hooks, IndexedDB, Reducers, MaterialUI components
+   - Technologies: React, Custom Hooks, IndexedDB, Reducers, MaterialUI components
    - [Speed Typing Test App](https://github.com/lacontrerasDev/my-projects/blob/03d013b005a8a8071749f2ffc5592ddc782ba8b2/speed-typing/README.md)
 
 
