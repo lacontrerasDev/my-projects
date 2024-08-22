@@ -31,7 +31,7 @@ analytical reasoning, currently applying web development technologies to deliver
   
 
 ## Contact
-- [Email](luis.contreras.a75@gmail.com)
-- [LinkedIn](www.linkedin.com/in/luis-alberto-contreras-almazán-743ab2a0)
+- [Email](mailto:luis.contreras.a75@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/luis-alberto-contreras-almazán-743ab2a0)
 
 
