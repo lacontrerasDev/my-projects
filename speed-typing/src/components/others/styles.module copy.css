@@ -1,0 +1,129 @@
+@keyframes translate {
+  0% {
+    transform: translateY(-20px);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
+
+/* .timer span:nth-child(1) {
+  background-color: blue;
+  animation: translate 10s infinite ease-in;
+}
+
+.timer span:nth-child(2) {
+  animation: translate 10s infinite ease-in;
+  animation-delay: 1s;
+}
+
+.timer span:nth-child(3) {
+  animation: translate 10s infinite ease-in;
+  animation-delay: 2s;
+} */
+
+/* .timer span:nth-child(4) {
+
+
+  animation: translate 1s infinite ease-in;
+
+} */
+
+/* .timer .digit {
+  display: inline-block;
+}
+
+.timer .digit0 {
+  animation: translate 1s infinite ease-in;
+}
+
+.timer .digit1 {
+  animation: translate 1s infinite ease-in;
+}
+
+.timer .digit2 {
+  animation: translate 1s infinite ease-in;
+}
+
+.timer .digit3 {
+  animation: translate 1s infinite ease-in;
+} */
+
+.timer {
+  display: flex;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 4rem;
+}
+
+.digit {
+  position: relative;
+  width: 4em;
+  height: 4em;
+  overflow: hidden;
+}
+
+.digitInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* transition: transform 0.5s ease-in-out; */
+}
+
+.digitPrevious,
+.digitCurrent {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease-in-out;
+}
+
+.digitPrevious {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.digitCurrent {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+/* .digitInner {
+  animation: changeDigit 5s ease-in-out forwards;
+} */
+
+/* @keyframes changeDigit {
+  0% {
+    transform: translateY(100%);
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+} */
+
+.digit.flip .digitPrevious {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.digit.flip .digitCurrent {
+  transform: translateY(0);
+  opacity: 1;
+}
